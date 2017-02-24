@@ -26,11 +26,13 @@ $ npm run server
 
 **browser-sync** ouvre un navigateur à l'URL **http://localhost:3000** (le port [**3001**](http://localhost:3001) donne accès à un panneau d'administration).
 
-Dans une autre console, lancer le script `watch` (qui utilise le plugin **chokidar**) :
+Dans une autre console, lancer le script `watch` :
 
 ```bash
 $ npm run watch
 ```
+
+> NB : n'ayant pas réussi à faire fonctionner le plugin `chokidar` sous Windows 7, je le remplace par `rollup-watch`.
 
 ### Bundling
 
