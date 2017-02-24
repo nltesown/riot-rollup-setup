@@ -1,10 +1,5 @@
 <app>
-
-  <h1>Hello there!</h1>
-
-  <switch></switch>
-  <switch></switch>
-  <switch></switch>
+  <h1>Riot Rollup Setup</h1>
   <switch></switch>
 
   <script>
